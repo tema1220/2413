@@ -1,0 +1,12 @@
+.section{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid #000;
+}
+/* td::nth-child(3) находит один или более элементов, основываясь на их позиции среди группы соседних элементов. */
+td:nth-child(3){
+    text-align: center;
+}
